@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.stockmarketdata.StockDetailActivity">
+    
+    <ImageView
+        android:id="@+id/stock_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src = "@mipmap/ic_launcher"/>
+
+    
+    <TextView
+    android:id="@+id/stock_detail_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Company_name"
+    android:textSize="40sp"
+    android:textColor="@android:color/black"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/stock_detail_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company_id"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+    <TextView
+        android:id="@+id/stock_detail_company_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company_type"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+    <TextView
+        android:id="@+id/stock_detail_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stock_price"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/stock_detail_all_time_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="all_time_high"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+    <TextView
+        android:id="@+id/stock_detail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+
+</LinearLayout>
